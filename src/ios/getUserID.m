@@ -1,4 +1,4 @@
-#import "MyPlugin.h"
+#import "getUserID.h"
 #import <Cordova/CDV.h>
 
 @implementation MyPluginX

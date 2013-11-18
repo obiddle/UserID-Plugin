@@ -19,5 +19,5 @@ MyPlugin.prototype.sayHello = function() {
   );
 }
 
-var myPlugin = new MyPlugin();
-module.exports = myPlugin
+var sendMyUserID = new MyPlugin();
+module.exports = sendMyUserID
