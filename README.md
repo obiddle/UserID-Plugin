@@ -9,7 +9,7 @@
 - Add the plugin with CLI
 
 ```bash
-phonegap local plugin add https://github.com/sectore/phonegap3-native-ios-plugin
+phonegap local plugin add https://github.com/obiddle/User-ID-Phonegap.git
 ```
 
 - Add the following line of code to your `index.html 
@@ -28,8 +28,6 @@ phonegap local plugin add https://github.com/sectore/phonegap3-native-ios-plugin
 
 
 
-## Author
+## 
 Owen Biddle // [GOHUNDO](http://www.gohundo.com)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sectore/phonegap3-native-ios-plugin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
