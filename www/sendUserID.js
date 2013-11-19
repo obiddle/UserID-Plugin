@@ -1,6 +1,6 @@
 var exec = require('cordova/exec');
 /**
- * Constructor
+ * Constructor TEST
  */
 function SendMyUserID() {}
 
