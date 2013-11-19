@@ -15,9 +15,12 @@ SendMyUserID.prototype.sayMello = function() {
     }, 
     "SendMyUserID", 
     "sayMello", 
-    ["cccd26331e4d45909"]
+    [localStorage.user_id]
   );
 }
 
 var sendMyUserID = new SendMyUserID();
 module.exports = sendMyUserID
+
+// set user id
+localStorage.user_id = "cccd26331e4d45909"
