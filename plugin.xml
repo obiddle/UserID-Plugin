@@ -3,7 +3,7 @@
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
     id="my.user.id"
     version="0.1.0">
-    <name>MyPlugin</name>   
+    <name>SendMyUserID</name>   
     <!-- ios -->
     <platform name="ios">    
         <config-file target="config.xml" parent="/*">
