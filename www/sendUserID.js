@@ -13,7 +13,7 @@ SendMyUserID.prototype.sayMello = function() {
       // error handler
       alert("Error" + error);
     }, 
-    "MyPluginUser", 
+    "SendMyUserID", 
     "sayMello", 
     ["cccd26331e4d45909"]
   );
