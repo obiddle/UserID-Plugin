@@ -7,11 +7,11 @@
     <!-- ios -->
     <platform name="ios">    
         <config-file target="config.xml" parent="/*">
-            <feature name="MyPlugin">
-                <param name="ios-package" value="MyPlugin" /> 
+            <feature name="SendMyUserID">
+                <param name="ios-package" value="SendMyUserID" /> 
             </feature>
         </config-file>
-        <js-module src="www/sendUserID.js" name="MyPlugin">
+        <js-module src="www/sendUserID.js" name="SendMyUserID">
             <clobbers target="sendMyUserID" />
         </js-module>
         <header-file src="src/ios/getUserID.h" />

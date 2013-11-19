@@ -2,9 +2,9 @@ var exec = require('cordova/exec');
 /**
  * Constructor
  */
-function MyPlugin() {}
+function SendMyUserID() {}
 
-MyPlugin.prototype.sayHello = function() {
+SendMyUserID.prototype.sayMello = function() {
   exec(function(result){
       // result handler
       alert(result);
@@ -13,11 +13,11 @@ MyPlugin.prototype.sayHello = function() {
       // error handler
       alert("Error" + error);
     }, 
-    "MyPluginX", 
-    "sayHello", 
+    "MyPluginUser", 
+    "sayMello", 
     ["cccd26331e4d45909"]
   );
 }
 
-var sendMyUserID = new MyPlugin();
+var sendMyUserID = new SendMyUserID();
 module.exports = sendMyUserID

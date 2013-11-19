@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface MyPluginX : CDVPlugin
+@interface SendMyUserID: CDVPlugin
 
 - (void)sayHello:(CDVInvokedUrlCommand*)command;
 

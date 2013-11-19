@@ -1,9 +1,9 @@
 #import "getUserID.h"
 #import <Cordova/CDV.h>
 
-@implementation MyPluginX
+@implementation SendMyUserID
 
-- (void)sayHello:(CDVInvokedUrlCommand*)command
+- (void)sayMello:(CDVInvokedUrlCommand*)command
 {
   CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Hello - woah, this guy :)"];
     NSString* user_uuid = [command.arguments objectAtIndex:0];
